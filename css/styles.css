@@ -8,7 +8,6 @@ ul {
 
 a {
     text-decoration: none;
-    cursor: pointer;
 }
 
 h2 {
@@ -76,13 +75,19 @@ h2 {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+}
+
+.features {
+    background-color: #FFFFFF;
 }
 
 .features-title {
     font-size: 26px;
     line-height: 111%;
-    text-align: links;
+    text-align: justify;
 }
 
 .features-item-title {
@@ -94,7 +99,6 @@ h2 {
 }
 
 .features-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -123,12 +127,15 @@ h2 {
 }
 
 .team-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+}
+
+.portfolio {
+    background-color: #FFFFFF;
 }
 
 .portfolio-item-title {
@@ -140,7 +147,6 @@ h2 {
 }
 
 .portfolio-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -161,9 +167,7 @@ h2 {
     color: #F4F4FD;
 }
 
-
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
